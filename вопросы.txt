@@ -1,0 +1,33 @@
+1.Как создать дату 24 января 2021 года, 22 часа 51 минута? Временная зона — местная.
+new Date(2011, 0, 24, 22, 51);
+
+2.Для чего предназначен метод getDay()?
+Для получения информации о дне недели из объекта Date. 
+
+3.
+
+let today = Date.now();
+let tomorrow = new Date(2023, 6, 25, 0, 0);
+let milliseconds = tomorrow - today;
+
+function howManySeconds() {
+  let seconds = Math.floor(milliseconds / 1000); // Конвертируем миллисекунды в секунды и округляем вниз
+  return seconds;
+}
+
+let seconds = howManySeconds();
+console.log(seconds);
+
+4.
+
+5.
+
+6.
+
+7.
+
+8.
+
+9.
+
+10.

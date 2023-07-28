@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+input{
+    padding:5px;
+    border-radius:5px;
+    border: 1;
+    width: 160px;
+}
+.input_date{
+    margin: 2px;
+}
+.answer{
+    margin: 2px;
+}
+button{
+    padding:5px;
+    margin: 10px;
+    /* border-radius:10px;
+    border: 0;
+    width: 180px;
+    color: #212529;
+    opacity: 0.8; */
+}
+h2{
+    color: darkgreen;
+}
